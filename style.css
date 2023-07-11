@@ -124,7 +124,7 @@ body{
     font-family: Red Hat display;
     font-weight: 900;
     font-size: 0.73rem;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     text-decoration: none;
 }
 .cancel-order-link.cancel-order-link:hover{
