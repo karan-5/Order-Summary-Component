@@ -1,0 +1,134 @@
+html{
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+body{
+    height: 100vh;
+    background-color:hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-font-smoothing: antialiased;
+}
+.Wrapper{
+    height: 30rem;
+    max-width: 20rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    row-gap: 0.5rem;
+}
+.Wrapper-2{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#summary-image{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.summary-title{
+    font-family: Red Hat Display;
+    font-weight: 900;
+    font-size: 1.2rem;
+    padding-top: 0.2rem;
+    color: hsl(223, 47%, 23%);
+}
+.summary-description{
+    font-family: Red Hat Display;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0%;
+    padding-bottom: 0.3rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+.plans-selection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5px;
+    padding-top: 0.3rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 0.3rem;
+    font-family: Red Hat display;
+}
+.plans-details{
+    padding-left: 1.1rem;
+    padding-right: 3.7rem;
+    align-self: center;
+}
+.plans-details__name{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 0.8rem;
+    margin-bottom: 0%;
+}
+.plans-details__price{
+    margin-top: 0%;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 0.87rem;
+}
+#plans-change-link{
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    align-self: center;
+    font-size: 0.7rem;
+}
+#plans-change-link:hover{
+    color:  hsl(245, 65%, 58%);
+}
+.proceed-button{
+    margin-top: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    font-family: Red Hat display;
+    font-weight: 900;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -2px hsl(224, 23%, 55%);
+    text-decoration: none;
+
+}
+.proceed-button:hover{
+    background-color:  hsl(245, 65%, 58%);
+}
+.cancel-order-link{
+    color: hsl(224, 23%, 55%);
+    font-family: Red Hat display;
+    font-weight: 900;
+    font-size: 0.73rem;
+    padding-top: 1rem;
+    text-decoration: none;
+}
+.cancel-order-link.cancel-order-link:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+    
